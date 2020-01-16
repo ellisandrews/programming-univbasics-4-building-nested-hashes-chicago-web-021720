@@ -27,5 +27,8 @@ end
 
 def monopoly_with_fourth_tier
   base = monopoly_with_third_tier()
-  
+  base[:railroads][:names][:reading_railroad] = {"mortgage_value": $5}
+  base[:railroads][:names][:reading_railroad] = {"mortgage_value": $5}
+  base[:railroads][:names][:reading_railroad] = {"mortgage_value": $5}
+  base[:railroads][:names][:reading_railroad] = {"mortgage_value": $5}
 end
